@@ -1,0 +1,59 @@
+
+output: web
+# this property is useful for conditional filtering of content that is separate from the PDF.
+
+topnav_title: Distil Help
+# this appears on the top navigation bar next to the home button
+
+site_title: Distil Help
+# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+
+company_name: Uncharted Software Inc.
+company_name_short: Uncharted
+product_name: Distil
+# this appears in the footer
+
+exclude:
+  - .idea/
+  - .gitignore
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+# these are the files and directories that jekyll will exclude from the build
+
+highlighter: rouge
+# library used for syntax highlighting
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+
+collections:
+  tooltips:
+    output: true
+# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: home_sidebar
+
+# these are defaults used for the frontmatter for these file types
+
+sidebars:
+- getting-started_sidebar
+- glossary_sidebar
+
+destination: ../_site
+
+description: "Distil Help"
+# the description is used in the feed.xml file

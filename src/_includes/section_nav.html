@@ -1,0 +1,19 @@
+{% if page.next or page.previous %}
+  <div class="section-nav">
+    <div class="nav-left align-right">
+        {% if page.previous == NULL %}
+          <span class="prev-pg btn-disabled">Back</span>
+        {% else %}
+          <a href="{{ page.previous }}.html" class="prev-pg">Back</a>
+        {% endif %}
+    </div>
+    <div class="nav-right align-left">
+        {% if page.next == NULL %}
+          <span class="next-pg btn-disabled">Next</span>
+        {% else %}
+          <a href="{{ page.next }}.html" class="next-pg">Next</a>
+        {% endif %}
+    </div>
+  </div>
+  <div class="clear-nav"></div>
+{% endif %}

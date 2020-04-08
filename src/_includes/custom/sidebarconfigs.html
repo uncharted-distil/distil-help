@@ -1,0 +1,7 @@
+{% if page.sidebar == "getting-started_sidebar" %}
+  {% assign sidebar = site.data.sidebars.getting-started_sidebar.entries %}
+{% elsif page.sidebar == "glossary" %}
+  {% assign sidebar = site.data.sidebars.glossary_sidebar.entries %}
+{% else %}
+  {% assign sidebar = site.data.sidebars.getting-started_sidebar.entries %}
+{% endif %}

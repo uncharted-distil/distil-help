@@ -1,0 +1,133 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Getting Started
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting started
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+  - title: Problem discovery
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /problem-discovery-overview.html
+      output: web, pdf
+
+    - title: 1. Select target
+      url: /problem-discovery-select-target.html
+      output: web, pdf
+
+    - title: 2. Create models
+      url: /problem-discovery-create-models.html
+      output: web, pdf
+
+  - title: Model generation
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /model-generation-overview.html
+      output: web, pdf
+
+    - title: 1. Create models
+      url: /model-generation-create-models.html
+      output: web, pdf
+
+    - title: 2. View models
+      url: /model-generation-view-models.html
+      output: web, pdf
+
+  - title: Data augmentation
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /workflow-overview.html
+      output: web, pdf
+
+    - title: 1. Select data
+      url: /select-data.html
+      output: web, pdf
+
+    - title: 2. Select target
+      url: /select-target.html
+      output: web, pdf
+
+    - title: 3. Create models
+      url: /create-models.html
+      output: web, pdf
+
+    - title: 4. Join datasets
+      url: /join-datasets.html
+      output: web, pdf
+
+    - title: 5. View models
+      url: /view-models.html
+      output: web, pdf
+
+  - title: Forecasting
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /forecasting-overview.html
+      output: web, pdf
+
+  - title: Reference
+    output: web, pdf
+    folderitems:
+
+    - title: Home
+      url: /reference-home.html
+      output: web, pdf
+
+    - title: Select data
+      url: /reference-select-data.html
+      output: web, pdf
+
+    - title: Select target
+      url: /reference-select-target.html
+      output: web, pdf
+
+    - title: Create models
+      url: /reference-create-models.html
+      output: web, pdf
+
+    - title: Join datasets
+      url: /reference-join-datasets.html
+      output: web, pdf
+
+    - title: View models
+      url: /reference-view-models.html
+      output: web, pdf
+
+  - title: Videos
+    output: web, pdf
+    folderitems:
+
+    - title: Workflow demonstrations
+      url: /videos.html
+      output: web, pdf

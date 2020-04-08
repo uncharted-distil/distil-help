@@ -1,0 +1,5 @@
+.jekyll-metadata
+_site/
+src/.sass-cache/
+src/vid/
+_dev-config.yml
