@@ -24,7 +24,7 @@ entries:
     - title: Available Feature
       url: "#available-feature"
       output: web, pdf
-      definition: In the Create Models step, available features are columns or fields in the chosen dataset. You can use an available feature in the model to predict the target.
+      definition: In the Select Model Features step, available features are columns or fields in the chosen dataset. You can use an available feature in the model to predict the target.
 
     - title: Categorical Feature
       url: "#categorical-feature"
@@ -98,14 +98,14 @@ entries:
     - title: Sample
       url: "#sample"
       output: web, pdf
-      definition: In the Create Models step, Distil shows a representative sample of values for the selected features to model and the target feature.
+      definition: In the Select Model Features step, Distil shows a representative sample of values for the selected features to model and the target feature.
 
     - title: Summary
       url: "#summary"
       output: web, pdf
       definition: |
-        On the Home and Select Data pages, the summary describes the contents of the available datasets that you can use in model building.<br><br>
-        On the View Models page, the feature summaries show the range of values in results in the dataset.
+        On the Select Model or Dataset page, the summary describes the contents of the available datasets that you can use in model building.<br><br>
+        On the Check Models page, the feature summaries show the range of values in results in the dataset.
 
     - title: Target
       url: "#target"

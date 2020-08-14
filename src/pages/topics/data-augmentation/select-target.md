@@ -26,7 +26,7 @@ Now that you have a relevant dataset, you must choose the target feature that yo
 
    {% include image.html file="data-augmentation/select-target/target-feature-samples.png" alt="Sample of values for selected target (event type)" %}
 
-   {% include note.html content="You can change the target at any time by returning to the Select Target view. Click <strong>Select Target</strong> in the navigation bar to go back." %}
+   {% include note.html content="You can change the target at any time by returning to the Select Target view. Click <strong>New Model: Select Target</strong> in the navigation bar to go back." %}
 
 The target you select determines the type of results the model will generate.
 
@@ -52,10 +52,16 @@ The target you select determines the type of results the model will generate.
       <td>Category</td>
       <td>Correct and incorrect predictions based the actual target feature category</td>
     </tr>
+    <tr>
+      <td><a href="#" data-toggle="tooltip" data-original-title="A compound feature consisting of a series of values recorded over time and an optional ID">Timeseries</a></td>
+      <td>Forecasting</td>
+      <td>Numerical values over time</td>
+      <td>Forecasted values for the last 10% of timeseries data</td>
+    </tr>
   </tbody>
 </table>
 
-**Event Type** is a categorical feature that will produce classification results.
+**Event_Type** is a categorical feature that will produce classification results.
 
 ## Next steps ##
 

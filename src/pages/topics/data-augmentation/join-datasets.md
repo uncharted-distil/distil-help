@@ -21,7 +21,7 @@ Use the optional Join Datasets step to add new features that add more context. D
    {% include image.html file="data-augmentation/join-datasets/join-suggestion.png" alt="Select the World Bank Employment Indicators dataset" %}
 
 3. Scroll through a sample of records to preview the join. Evaluate how the features from the join dataset have been added to your original selection.
-4. Click **Commit Join** to return to the Create Models stage and add any new features to your model.
+4. Click **Commit Join** to return to the Select Model Features stage and add any new features to your model.
 
    {% include image.html file="data-augmentation/join-datasets/join-preview.png" alt="Preview the join before committing" %}
 
