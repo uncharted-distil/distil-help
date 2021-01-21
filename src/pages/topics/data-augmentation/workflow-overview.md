@@ -15,6 +15,6 @@ In this workflow, you will learn how to find a dataset, add relevant data to it 
 4. [Join a dataset](join-datasets.html)
 5. [View the models](view-models.html)
 
-The following video focuses on the View models and Join dataset portions of the workflow.
+The following video focuses on the Check models and Join dataset portions of the workflow.
 
 {% include video.html src="vid/distil-workflow-data-augmentation.mp4" %}

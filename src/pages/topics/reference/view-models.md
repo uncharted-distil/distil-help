@@ -1,9 +1,9 @@
 ---
-title: "View models"
+title: "Check models"
 sidebar: getting-started
 permalink: reference-view-models.html
 previous: reference-join-datasets
-next:
+next: reference-apply-models
 ---
 
 Compare the accuracy of models generated from your feature selections.

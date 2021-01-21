@@ -1,5 +1,5 @@
 ---
-title: "Create Models"
+title: "Select Model Features"
 sidebar: getting-started
 permalink: reference-create-models.html
 previous: reference-select-target

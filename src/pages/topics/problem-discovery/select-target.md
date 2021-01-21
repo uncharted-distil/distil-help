@@ -16,7 +16,7 @@ To begin, you must choose the target feature that you want to explore.
    {% include note.html content="Feature summaries show the values for each column/field in the dataset. Distil automatically infers the type of data stored for each feature. To change the inferred value, use the **type&nbsp;<sup class=\"fa fa-sort-desc\" aria-hidden=\"true\" style=\"display: inline;\"></sup>** drop-down on the upper right corner of the summary." %}
 
 2. Use the **Search** field to filter on *acceleration*.
-3. On the **acceleration** feature summary, click **Select Target**.
+3. On the **Acceleration** feature summary, click **Select Target**.
 
    {% include image.html file="problem-discovery/select-target/target-feature-select.png" alt="Set acceleration feature as target" %}
 
@@ -24,7 +24,7 @@ To begin, you must choose the target feature that you want to explore.
 
    {% include image.html file="problem-discovery/select-target/target-feature-samples.png" alt="Sample of values for selected target (acceleration)" %}
 
-   {% include note.html content="You can change the target at any time by returning to the Select Target view. Click <strong>Select Target</strong> in the navigation bar to go back." %}
+   {% include note.html content="You can change the target at any time by returning to the Select Target view. Click <strong>New Model: Select Target</strong> in the navigation bar to go back." %}
 
 The target you select determines the type of results the model will generate.
 
@@ -50,6 +50,12 @@ The target you select determines the type of results the model will generate.
       <td>Category</td>
       <td>Correct and incorrect predictions based the actual target feature category</td>
     </tr>
+    <tr>
+      <td><a href="#" data-toggle="tooltip" data-original-title="A compound feature consisting of a series of values recorded over time and an optional ID">Timeseries</a></td>
+      <td>Forecasting</td>
+      <td>Numerical values over time</td>
+      <td>Forecasted values for the last 10% of timeseries data</td>
+    </tr>
   </tbody>
 </table>
 
@@ -57,4 +63,4 @@ The target you select determines the type of results the model will generate.
 
 ## Next steps ##
 
-Select the features that you think should predict the target feature and export the problem definition.
+Select the features that you think should predict the target feature.

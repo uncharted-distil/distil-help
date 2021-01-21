@@ -2,7 +2,7 @@
 title: "Select data"
 sidebar: getting-started
 permalink: reference-select-data.html
-previous: reference-home
+previous:
 next: reference-select-target
 ---
 

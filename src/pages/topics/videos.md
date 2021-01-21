@@ -16,7 +16,7 @@ In this video, you will see the complete Distil workflow, from finding a relevan
 
 ## Task 1: Problem discovery ##
 
-In this video, you will learn how to [build and export a problem specification](problem-discovery-overview.html) for the acceleration feature in a preselected automotive dataset.
+In this video, you will learn how to [build a problem specification](problem-discovery-overview.html) for the acceleration feature in a preselected automotive dataset.
 
 {% include video.html src="vid/distil-workflow-task-1-problem-discovery.mp4" %}
 
@@ -30,7 +30,7 @@ In this video, you will learn how to [create predictive models](model-generation
 
 In this workflow, you will learn how to guide Distil to build a forecasting models.
 
-{% include video.html src="vid/distil-workflow-forecasting.mp4" %}
+{% include video.html src="vid/distil-training-terra.mp4" %}
 
 ## Data augmentation ##
 

@@ -40,7 +40,7 @@ entries:
       url: /problem-discovery-select-target.html
       output: web, pdf
 
-    - title: 2. Create models
+    - title: 2. Select model features
       url: /problem-discovery-create-models.html
       output: web, pdf
 
@@ -52,11 +52,11 @@ entries:
       url: /model-generation-overview.html
       output: web, pdf
 
-    - title: 1. Create models
+    - title: 1. Select model features
       url: /model-generation-create-models.html
       output: web, pdf
 
-    - title: 2. View models
+    - title: 2. Check models
       url: /model-generation-view-models.html
       output: web, pdf
 
@@ -76,7 +76,7 @@ entries:
       url: /select-target.html
       output: web, pdf
 
-    - title: 3. Create models
+    - title: 3. Select model features
       url: /create-models.html
       output: web, pdf
 
@@ -84,8 +84,16 @@ entries:
       url: /join-datasets.html
       output: web, pdf
 
-    - title: 5. View models
+    - title: 5. Check models
       url: /view-models.html
+      output: web, pdf
+
+  - title: Applying models
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /applying-models-overview.html
       output: web, pdf
 
   - title: Forecasting
@@ -100,10 +108,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Home
-      url: /reference-home.html
-      output: web, pdf
-
     - title: Select data
       url: /reference-select-data.html
       output: web, pdf
@@ -112,7 +116,7 @@ entries:
       url: /reference-select-target.html
       output: web, pdf
 
-    - title: Create models
+    - title: Select model features
       url: /reference-create-models.html
       output: web, pdf
 
@@ -120,8 +124,12 @@ entries:
       url: /reference-join-datasets.html
       output: web, pdf
 
-    - title: View models
+    - title: Check models
       url: /reference-view-models.html
+      output: web, pdf
+
+    - title: Apply models
+      url: /reference-apply-models.html
       output: web, pdf
 
   - title: Videos

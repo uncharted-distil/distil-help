@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Create Models"
+title: "Step 3 - Select Model Features"
 sidebar: getting-started
 permalink: create-models.html
 previous: select-target
@@ -13,21 +13,21 @@ You must choose features that you think will inform the predictions. Distil will
 <h5 class="procedure">To choose the features that your model should use in its predictions:</h5>
 
 1. Click **Add** under the features you think may influence the target:
-   - **Main_Actor**
-   - **Other_Main_Actor**
-   - **Actor_Associated_To_Main_Actor**
-   - **Actor_Associated_To_Other_Main_Actor**
-   - **Main_Actor_Type**
-   - **Other_Main_Actor_Type**
+   - **Actor1**
+   - **Actor2**
+   - **Assoc_Actor_1**
+   - **Assoc_Actor_2**
+   - **Inter1**
+   - **Inter2**
    - **Country**
    - **Latitude**
    - **Longitude**
-   - **Event_Interaction_Type**
+   - **Interaction**
    - **Fatalities**
 
    {% include image.html file="data-augmentation/create-models/available-features-add.png" alt="Add actors to features to model" %}
 
-   In this example, Distil adds the selected features to the list of Features to Model. You can filter or change the **type&nbsp;<sup class="fa fa-sort-desc" aria-hidden="true" style="display: inline;"></sup>** of any of the features to model.
+   Distil adds the selected features to the list of Features to Model. You can filter or change the **type&nbsp;<sup class="fa fa-sort-desc" aria-hidden="true" style="display: inline;"></sup>** of any of the features to model.
 
    {% include image.html file="data-augmentation/create-models/features-to-model.png" alt="Main Actor and Other Main Actor added as features that inform the prediction made by the model" %}
 
@@ -45,13 +45,12 @@ You must choose features that you think will inform the predictions. Distil will
     </div>
    </div>
 
-2. Click **show more** on the **Main_Actor** card to see more values. 
+2. Click **show more** on the **Actor1** card to see more values.
 3. Click *Protestors (Iran)* to view samples that match the value in the Samples to Model From table.
 4. To exclude these samples from the model, click <span class="fa fa-minus-circle pr-1 exclude-highlight"></span> **Exclude**.
    {% include image.html file="data-augmentation/create-models/exclude-category.png" alt="Omit records with a specific categorical value" %}
 5. Click Excluded Samples to review the records you removed.
 6. Click <span class="fa fa-globe"></span> to see where those records are located.
-   {% include image.html file="data-augmentation/create-models/geographic-data.png" alt="View records on a map" %}
 
 Depending on your task, next you can:
 
