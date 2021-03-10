@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     {% include head.html %}
+    {% if page.home != true %}
     <script>
         $(document).ready(function() {
             // Initialize navgoco with default options
@@ -51,6 +52,7 @@
             );
     </script>
     {% endif %}
+    {% endif %}
 
 </head>
 <body>
@@ -62,12 +64,14 @@
     <div class="row">
         <!-- Sidebar Column -->
         <div class="col-md-3">
-
+     {% if page.home != true %}   
           {% include sidebar.html %}
+     {% endif %}
     <!-- Content Column -->
-    <div class="col-md-9">
-        {{content}}
-    </div>
+
+        <div class="col-md-9">
+            {{content}}
+        </div>
     <!-- /.row -->
 </div>
 <!-- /.container -->

@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     - title: Introduction
-      url: /index.html
+      url: /help.html
       output: web, pdf
       type: homepage
 
@@ -104,6 +104,14 @@ entries:
       url: /forecasting-overview.html
       output: web, pdf
 
+  - title: Videos
+    output: web, pdf
+    folderitems:
+
+    - title: Workflow demonstrations
+      url: /videos.html
+      output: web, pdf
+
   - title: Reference
     output: web, pdf
     folderitems:
@@ -132,10 +140,10 @@ entries:
       url: /reference-apply-models.html
       output: web, pdf
 
-  - title: Videos
+  - title: Glossary
     output: web, pdf
     folderitems:
 
-    - title: Workflow demonstrations
-      url: /videos.html
+    - title: Glossary of terms
+      url: /glossary.html
       output: web, pdf

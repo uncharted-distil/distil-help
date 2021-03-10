@@ -1,36 +1,104 @@
 ---
-title: "Introduction"
-tags:
-keywords:
-summary:
-sidebar: getting-started
+title: ""
+layout: home
 permalink: index.html
-previous:
-next:
 ---
 
-Distil is a data-driven application that helps you can combine your domain expertise with machine intelligence to solve real-world problems. Distil requires no data science knowledge.
+{% include image.html file="home/distil-web.png" alt="Distil" %}
 
-{% include diagram.html file="overview.png" name="distil-overview" alt="Overview" %}
+Distil, a system developed by [Uncharted Software](https://uncharted.software) based on research funded by the D3M program, is a mixed-initiative modeling workbench that enables subject matter experts to discover underlying dynamics of complex systems and generate data-driven models using an interactive analytic-question-first workflow. To maximize the combinatorial power of human/machine intelligence, Distil incorporates semantic data discovery, enrichment, analytic model recommendation and automated visualization to facilitate understanding of data and models. 
 
-Tasks you can perform in Distil include:
+Through Distil, SMEs visually explore and understand heterogeneous data sources related to analytic objectives, express the objectives using an intuitive visual vocabulary and interact with, understand, curate and refine resultant machine-inferred data models. Distil focuses on visual question decomposition into quantifiable facets that recommender services compose into user-tailorable analytic workflows by interfacing with model construction components.
 
-- [Problem discovery](problem-discovery-overview.html)
-- [Model generation](model-generation-overview.html)
-- [Data augmentation](workflow-overview.html)
-- [Forecasting](forecasting-overview.html)
+## Design philosophy ##
 
-## Training videos ##
+Distil has been designed to empower domain experts with the following principles: 
 
-The following training videos show how to use Distil to: 
+- **Data-Driven Model Discovery**: Guide machine intelligence to build predictive models that classify or project complex real-world processes.
+- **Ease of Use**: Apply subject matter expertise with no data science knowledge needed.
+- **Simple Search and Exploration**: Describe a problem in natural language to quickly find all relevant data. Filter records as needed.
+- **Model Comparisons**: Generate and compare multiple models of the problem at once to understand which is the best fit and determine how features in the data influence the target variable.
 
-- [Build and apply predictive classification models](#build-and-apply-predictive-classification-models)
-- [Perform timeseries forecasting](#perform-timeseries-forecasting)
+## Features ##
 
-### Build and apply predictive classification models ###
+**Data Exploration**. Search for keywords, values or features in available datasets and models or upload a custom CSV/ZIP. Use natural language queries to describe goals. For the selected dataset, correct automatically inferred feature data types and choose the feature for which you want to build predictive models. Augment features to build complex timeseries or geocoordinate features.
 
-{% include video.html src="vid/distil-training-h1b.mp4" %}
+<div class="container home-features">
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="feature-image" src="images/home/data-exploration-1.png" alt="Natural language search for keywords or features in available datasets" />
+        </div>
+        <div class="col-sm-6">
+            <img class="feature-image" src="images/home/data-exploration-2.png" alt="Build a timeseries feature from available data columns" />
+        </div>
+    </div>
+</div>
 
-### Perform timeseries forecasting ####
+**Select Model Features**. Choose features that may predict the selected target. Interactive highlighting reveals relationships between features. Automatic variable ranking sorts features by importance to the target. Data clustering groups data to reveal outliers and commonalities. Augment with other sources via automatically suggested joins. Exclude noisy or irrelevant data samples to get the best results.
 
-{% include video.html src="vid/distil-training-terra.mp4" %}
+<div class="container home-features">
+    <div class="row">
+        <div class="col-sm-4">
+            <img class="feature-image" src="images/home/model-features-1.png" alt="Select features that may predict the target" />
+        </div>
+        <div class="col-sm-4">
+            <img class="feature-image" src="images/home/model-features-2.png" alt="View geographic data on a map to understand context" />
+        </div>
+        <div class="col-sm-4">
+            <img class="feature-image" src="images/home/model-features-3.png" alt="Compare timeseries samples" />
+        </div>
+    </div>
+</div>
+
+**Check Models**. Review classification, regression and timeseries forecasting model results. Features are displayed in terms of strength to the model as a whole and importance to individual predictions. Compare results with ground truth and select variables or predictions to understand how samples impact accuracy. Iteratively build models and apply them to new data or forecast beyond the dataset.
+
+<div class="container home-features">
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="feature-image" src="images/home/check-models-1.png" alt="Review results to understand model performance" />
+        </div>
+        <div class="col-sm-6">
+            <img class="feature-image" src="images/home/check-models-2.jpg" alt="Natural color images with sample predictions" />
+        </div>
+    </div>
+</div>
+
+**Remote Sensing**. Train a classifier to assign labels to multi-spectral satellite images to solve problems such as land use. Perform interactive image similarity searches to generate a ranked list of images that match an input set. View results on a map, ranked by similarity or confidence.
+
+<div class="container home-features">
+    <div class="row">
+        <div class="col-sm-4">
+            <img class="feature-image" src="images/home/remote-sensing-1.jpg" alt="View 12-band satellite imagery" />
+        </div>
+        <div class="col-sm-4">
+            <img class="feature-image" src="images/home/remote-sensing-2.jpg" alt="Review prediction confidence on a map" />
+        </div>
+        <div class="col-sm-4">
+            <img class="feature-image" src="images/home/remote-sensing-3.jpg" alt="Drill down to view individual satellite images used to make predictions" />
+        </div>
+    </div>
+</div>
+
+## Demo ##
+
+The following demo video shows how Distil's remote sensing capabilities can be used to train a classifier that predicts land use.
+
+<div style="text-align:center">
+  <video controls style="margin: 0 auto; max-height: 400px">
+    <source src="vid/distil-locust-remote-sensing-vo.mp4?{{site.time | date: '%s%N'}}" type="video/mp4">
+      Download <a href="vid/distil-locust-remote-sensing-vo.mp4?{{site.time | date: '%s%N'}}" download>video</a>.
+  </video>
+</div>
+
+## Repositories ##
+
+Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org/">D3M ecosystem</a>, and consists of the the following main repositories:
+
+- [Distil](https://github.com/uncharted-distil/distil), a web-based application compliant with the [automl-rpc](https://gitlab.com/datadrivendiscovery/automl-rpc) interface.
+- [Distil AutoML](https://github.com/uncharted-distil/distil-auto-ml), a template-based research AutoML system compliant with the [automl-rpc](https://gitlab.com/datadrivendiscovery/automl-rpc) interface.
+- [Distil Primitives](https://github.com/uncharted-distil/distil-primitives), a collection of general transformation, analysis and learning primitives designed for use in the D3M ecosystem.
+- [KUNGFU Primitives](https://github.com/kungfuai/d3m-primitives), additional D3M-compliant primitives for specialized transformation, analysis and learning.
+
+## Contributors ##
+
+Contributor information
