@@ -2,4 +2,5 @@
 _site/
 src/.sass-cache/
 src/vid/
+diagrams/
 _dev-config.yml
