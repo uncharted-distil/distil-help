@@ -1,0 +1,15 @@
+---
+---
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ page.collapseTitle | slugify | capitalize }}"><strong>{{ page.collapseTitle }}</strong></a>
+    </h4>
+  </div>
+  <div id="collapse{{ page.collapseTitle | slugify | capitalize }}" class="panel-collapse collapse noCrossRef">
+    <div class="panel-body">
+      {{ content }}
+    </div>
+  </div>
+</div>

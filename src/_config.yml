@@ -36,6 +36,8 @@ kramdown:
 collections:
   tooltips:
     output: true
+  videos:
+    output: false
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
@@ -46,7 +48,12 @@ defaults:
     values:
       layout: "page"
       sidebar: home_sidebar
-
+  -
+    scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "collapse"
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
