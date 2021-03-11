@@ -7,6 +7,6 @@ previous:
 next:
 ---
 
-In this workflow, you will learn how to guide Distil to build a forecasting models. To generate forecasting models, you must first construct a compound timeseries feature from the features in your dataset.
+In this workflow, you will learn how to guide Distil to build forecasting models. To generate forecasting models, you must first construct a compound timeseries feature from the features in your dataset.
 
 {% include video.html src="vid/distil-training-terra.mp4" %}

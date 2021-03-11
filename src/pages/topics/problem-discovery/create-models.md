@@ -54,4 +54,4 @@ Finally, you must choose features that you think will inform the predictions.
 
    {% include image.html file="problem-discovery/create-models/excluded-samples.png" alt="Samples removed from consideration" %}
 
-Your model definition is now complete and you can use your selections to create models.
+Your model definition is now complete, and you can use your selections to create models.

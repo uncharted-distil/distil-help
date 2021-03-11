@@ -92,7 +92,7 @@ The following demo video shows how Distil's remote sensing capabilities can be u
 
 ## Repositories ##
 
-Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org/">D3M ecosystem</a>, and consists of the the following main repositories:
+Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org/">D3M ecosystem</a>, and consists of the following main repositories:
 
 - [Distil](https://github.com/uncharted-distil/distil), a web-based application compliant with the [automl-rpc](https://gitlab.com/datadrivendiscovery/automl-rpc) interface.
 - [Distil AutoML](https://github.com/uncharted-distil/distil-auto-ml), a template-based research AutoML system compliant with the [automl-rpc](https://gitlab.com/datadrivendiscovery/automl-rpc) interface.
