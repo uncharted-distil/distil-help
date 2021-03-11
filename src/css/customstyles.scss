@@ -1462,3 +1462,18 @@ video {
     margin-left: auto; 
     margin-right: auto;
 }
+
+table.contributors {
+    background-color: transparent;
+    border: 0px;
+}
+
+table.contributors > tbody > tr {
+    background-color: transparent;
+    border: 0px;
+}
+
+table.contributors > tbody > tr > td {
+    background-color: transparent;
+    border: 0px;
+}

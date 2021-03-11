@@ -101,4 +101,26 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
 
 ## Contributors ##
 
-Contributor information
+<table class="contributors">
+    <colgroup>
+       <col span="1" style="width: 50%;">
+       <col span="1" style="width: 50%;">
+    </colgroup>
+    <tr>
+        <td>
+            <figure>
+                <a href="http://kungfu.ai/">
+                    <img class="feature-image" src="images/home/kungfu.png" alt="KUNGFU.AI" />
+                </a>
+            </figure>
+            <p><a href="http://kungfu.ai/">KUNGFU.AI</a> is a leading-edge AI professional services firm based in Austin, TX. We build robust, scalable state-of-the-art AI solutions and maintain the models in production in our clients' environments. Our key AI/ML capability areas include computer vision, natural language processing, and predictive analytics. As a subcontractor to Uncharted Software under the DARPA D3M program, KUNGFU has developed a robust set of machine learning primitives, with a particular focus on multivariate time series forecasting and remote sensing using multispectral satellite imagery.</p>
+        </td>
+        <td>
+            <figure>
+                <a href="https://www.jataware.com">
+                    <img class="feature-image" src="images/home/jataware.png" alt="Jataware" />
+                </a>
+            </figure>
+            <p><a href="https://www.jataware.com">Jataware</a> is a research and development company focused on software engineering, data science, machine learning and high performance computing. We provide technology consulting services and digital solutions for a wide range of problem sets within government and commercial spaces. As a member of Uncharted's D3M team, Jataware has developed components for: computer vision tasks operating on standard image and multispectral satellite image data; time series, audio and text classification problems; and graph analytics.</p>
+        </td>
+    </tr>
