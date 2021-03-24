@@ -193,8 +193,10 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
                     <img class="feature-image" src="images/home/kungfu.png" alt="KUNGFU.AI" />
                 </a>
             </figure>
-            <p><a href="http://kungfu.ai/">KUNGFU.AI</a> is a leading-edge AI professional services firm based in Austin, TX. We build robust, scalable state-of-the-art AI solutions and maintain the models in production in our clients' environments. Our key AI/ML capability areas include computer vision, natural language processing, and predictive analytics. As a subcontractor to Uncharted Software under the DARPA D3M program, KUNGFU has developed a robust set of machine learning primitives, with a particular focus on multivariate time series forecasting and remote sensing using multispectral satellite imagery.</p>
+            <p><a href="https://kungfu.ai/">KUNGFU.AI</a> is a leading-edge AI professional services firm based in Austin, TX. We build robust, scalable state-of-the-art AI solutions and maintain the models in production in our clients' environments. Our key AI/ML capability areas include computer vision, natural language processing, and predictive analytics. As a subcontractor to Uncharted Software under the DARPA D3M program, KUNGFU has developed a robust set of machine learning primitives, with a particular focus on multivariate time series forecasting and remote sensing using multispectral satellite imagery.</p>
         </td>
+    </tr>
+    <tr>
         <td>
             <figure>
                 <a href="https://www.jataware.com">
