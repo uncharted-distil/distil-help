@@ -26,10 +26,26 @@ Distil has been designed to empower domain experts with the following principles
 <div class="container home-features">
     <div class="row">
         <div class="col-sm-6">
+            <figure>
+                <a href="#data-exploration-1">
             <img class="feature-image" src="images/home/data-exploration-1.png" alt="Natural language search for keywords or features in available datasets" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="data-exploration-1">
+                <img src="images/home/data-exploration-1.png"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
         <div class="col-sm-6">
+            <figure>
+                <a href="#data-exploration-2">
             <img class="feature-image" src="images/home/data-exploration-2.png" alt="Build a timeseries feature from available data columns" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="data-exploration-2">
+                <img src="images/home/data-exploration-2.png"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
     </div>
 </div>
@@ -39,13 +55,37 @@ Distil has been designed to empower domain experts with the following principles
 <div class="container home-features">
     <div class="row">
         <div class="col-sm-4">
+            <figure>
+                <a href="#model-features-1">
             <img class="feature-image" src="images/home/model-features-1.png" alt="Select features that may predict the target" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="model-features-1">
+                <img src="images/home/model-features-1.png"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
         <div class="col-sm-4">
+            <figure>
+                <a href="#model-features-2">
             <img class="feature-image" src="images/home/model-features-2.png" alt="View geographic data on a map to understand context" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="model-features-2">
+                <img src="images/home/model-features-2.png"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
         <div class="col-sm-4">
+            <figure>
+                <a href="#model-features-3">
             <img class="feature-image" src="images/home/model-features-3.png" alt="Compare timeseries samples" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="model-features-3">
+                <img src="images/home/model-features-3.png"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
     </div>
 </div>
@@ -55,10 +95,26 @@ Distil has been designed to empower domain experts with the following principles
 <div class="container home-features">
     <div class="row">
         <div class="col-sm-6">
+            <figure>
+                <a href="#check-models-1">
             <img class="feature-image" src="images/home/check-models-1.png" alt="Review results to understand model performance" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="check-models-1">
+                <img src="images/home/check-models-1.png"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
         <div class="col-sm-6">
+            <figure>
+                <a href="#check-models-2">
             <img class="feature-image" src="images/home/check-models-2.jpg" alt="Natural color images with sample predictions" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="check-models-2">
+                <img src="images/home/check-models-2.jpg"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
     </div>
 </div>
@@ -68,13 +124,37 @@ Distil has been designed to empower domain experts with the following principles
 <div class="container home-features">
     <div class="row">
         <div class="col-sm-4">
+            <figure>
+                <a href="#remote-sensing-1">
             <img class="feature-image" src="images/home/remote-sensing-1.jpg" alt="View 12-band satellite imagery" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="remote-sensing-1">
+                <img src="images/home/remote-sensing-1.jpg"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
         <div class="col-sm-4">
+            <figure>
+                <a href="#remote-sensing-2">
             <img class="feature-image" src="images/home/remote-sensing-2.jpg" alt="Review prediction confidence on a map" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="remote-sensing-2">
+                <img src="images/home/remote-sensing-2.jpg"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
         <div class="col-sm-4">
+            <figure>
+                <a href="#remote-sensing-3">
             <img class="feature-image" src="images/home/remote-sensing-3.jpg" alt="Drill down to view individual satellite images used to make predictions" />
+                </a>
+            </figure>
+            <div class="lightbox-target" id="remote-sensing-3">
+                <img src="images/home/remote-sensing-3.jpg"/>
+                <a class="lightbox-close" href="#features"></a>
+            </div>
         </div>
     </div>
 </div>
