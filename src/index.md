@@ -205,4 +205,12 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
             </figure>
             <p><a href="https://www.jataware.com">Jataware</a> is a research and development company focused on software engineering, data science, machine learning and high performance computing. We provide technology consulting services and digital solutions for a wide range of problem sets within government and commercial spaces. As a member of Uncharted's D3M team, Jataware has developed components for: computer vision tasks operating on standard image and multispectral satellite image data; time series, audio and text classification problems; and graph analytics.</p>
         </td>
-    </tr>
+        <td>
+            <figure>
+                <a href="https://qntfy.com/">
+                    <img class="feature-image" src="images/home/qntfy.png" alt="Qntfy" />
+                </a>
+            </figure>
+            <p><a href="https://qntfy.com/">Qntfy</a> is a technology solutions provider bridging data science and human behavior. We make complex psychological and behavioral data accessible, scalable and actionable for both individuals and organizations.  Qntfy and Uncharted worked together to build a data-driven platform to automatically find and tune a machine learning pipeline given an end  user’s dataset, supporting tabular, time series and image domains.</p>
+        </td>
+    </tr></table>
