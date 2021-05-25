@@ -1,6 +1,6 @@
 ---
 title: "Glossary"
-sidebar: glossary
+sidebar: getting-started
 permalink: glossary.html
 layout: glossary
 toc: false

@@ -1,0 +1,6 @@
+{% assign videos = site.videos | sort: "order" %}
+<div class="panel-group" id="accordion">
+  {%- for video in videos -%}
+    {{ video.output }}
+  {%- endfor -%}
+</div>

@@ -3,7 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: Topics
-      url: /index.html
-    - title: Glossary
-      url: /glossary.html
+    - title: "GitHub <i class=\"fa fa-external-link\" aria-hidden=\"true\" style=\"font-size: 0.8em;\"></i>"
+      external_url: https://github.com/uncharted-distil
+    - title: "Help"
+      url: /help.html
+      sidebar: getting-started

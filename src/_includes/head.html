@@ -3,14 +3,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-<title>{{ page.title }} | {{ site.site_title }}</title>
+<title>{% if page.title !="" %}{{ page.title }} | {% endif %}{{ site.site_title }}</title>
 <link rel="stylesheet" href="{{ "css/syntax.css" }}">
 
 
 <link rel="stylesheet" type="text/css" href="{{ "css/lib/font-awesome-4.7.0/css/font-awesome.min.css" }}">
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
 <link rel="stylesheet" href="{{ "css/modern-business.css" }}">
-<link rel="stylesheet" href="{{ "css/lavish-bootstrap.css" }}">
+<link rel="stylesheet" href="{{ "css/uncharted-bootstrap.css" }}">
 <link rel="stylesheet" href="{{ "css/customstyles.css" }}?{{site.time | date: '%s%N'}}">
 <link rel="stylesheet" href="{{ "css/theme-black.css" }}?{{site.time | date: '%s%N'}}">
 
@@ -24,4 +24,4 @@
 <script src="{{ "js/toc.js" }}"></script>
 <script src="{{ "js/customscripts.js" }}"></script>
 
-<link rel="shortcut icon" href="{{ "images/favicon.ico"  }}">
+<link rel="shortcut icon" href="{{ "images/favicon-distil.ico"  }}">

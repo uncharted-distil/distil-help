@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Getting Started
+  product: Contents
   version:
   folders:
 
@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     - title: Introduction
-      url: /index.html
+      url: /help.html
       output: web, pdf
       type: homepage
 
@@ -104,6 +104,34 @@ entries:
       url: /forecasting-overview.html
       output: web, pdf
 
+  - title: Remote sensing
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /remote-sensing-overview.html
+      output: web, pdf
+
+    - title: 1. Create labels
+      url: /remote-sensing-label-creation.html
+      output: web, pdf
+
+    - title: 2. Create candidate models
+      url: /remote-sensing-create-models.html
+      output: web, pdf
+
+    - title: 3. Apply model
+      url: /remote-sensing-apply-model.html
+      output: web, pdf
+
+  - title: Videos
+    output: web, pdf
+    folderitems:
+
+    - title: Workflow demonstrations
+      url: /videos.html
+      output: web, pdf
+
   - title: Reference
     output: web, pdf
     folderitems:
@@ -132,10 +160,10 @@ entries:
       url: /reference-apply-models.html
       output: web, pdf
 
-  - title: Videos
+  - title: Glossary
     output: web, pdf
     folderitems:
 
-    - title: Workflow demonstrations
-      url: /videos.html
+    - title: Glossary of terms
+      url: /glossary.html
       output: web, pdf
