@@ -32,7 +32,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="data-exploration-1">
-                <img src="images/home/data-exploration-1.png"/>
+                <img src="images/home/data-exploration-1.png" alt="Natural language search for keywords or features in available datasets"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -43,7 +43,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="data-exploration-2">
-                <img src="images/home/data-exploration-2.png"/>
+                <img src="images/home/data-exploration-2.png" alt="Build a timeseries feature from available data columns"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -61,7 +61,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="model-features-1">
-                <img src="images/home/model-features-1.png"/>
+                <img src="images/home/model-features-1.png" alt="Select features that may predict the target"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -72,7 +72,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="model-features-2">
-                <img src="images/home/model-features-2.png"/>
+                <img src="images/home/model-features-2.png" alt="View geographic data on a map to understand context"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -83,7 +83,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="model-features-3">
-                <img src="images/home/model-features-3.png"/>
+                <img src="images/home/model-features-3.png" alt="Compare timeseries samples"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -101,7 +101,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="check-models-1">
-                <img src="images/home/check-models-1.png"/>
+                <img src="images/home/check-models-1.png" alt="Review results to understand model performance"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -112,7 +112,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="check-models-2">
-                <img src="images/home/check-models-2.jpg"/>
+                <img src="images/home/check-models-2.jpg" alt="Natural color images with sample predictions"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -130,7 +130,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="remote-sensing-1">
-                <img src="images/home/remote-sensing-1.jpg"/>
+                <img src="images/home/remote-sensing-1.jpg" alt="View 12-band satellite imagery"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -141,7 +141,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="remote-sensing-2">
-                <img src="images/home/remote-sensing-2.jpg"/>
+                <img src="images/home/remote-sensing-2.jpg" alt="Review prediction confidence on a map"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -152,7 +152,7 @@ Distil has been designed to empower domain experts with the following principles
                 </a>
             </figure>
             <div class="lightbox-target" id="remote-sensing-3">
-                <img src="images/home/remote-sensing-3.jpg"/>
+                <img src="images/home/remote-sensing-3.jpg" alt="Drill down to view individual satellite images used to make predictions"/>
                 <a class="lightbox-close" href="#features"></a>
             </div>
         </div>
@@ -190,7 +190,7 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
         <td>
             <figure>
                 <a href="https://uncharted.softare/">
-                    <img class="home-logo" src="images/home/uncharted.png" alt="Uncharted Software Inc." />
+                    <img class="home-logo" src="images/home/uncharted.png" alt="Uncharted Software Inc. Logo" />
                 </a>
             </figure>
             <p><a href="https://uncharted.software/">Uncharted Software Inc.</a>® is a leading provider of innovative visual analytics software solutions for Fortune 500 companies, federal government agencies, and third-party software firms. We believe that the right visualization can have a profound impact on people’s ability to explore, assimilate, understand, and create value from large amounts of data. Uncharted led the development of the Distil platform, providing the user-facing application and data server, as well participating in the development of the machine learning components contributed by our partners.</p>
@@ -198,7 +198,7 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
         <td>
             <figure>
                 <a href="https://kungfu.ai/">
-                    <img class="home-logo" src="images/home/kungfu.png" alt="KUNGFU.AI" />
+                    <img class="home-logo" src="images/home/kungfu.png" alt="KUNGFU.AI Logo" />
                 </a>
             </figure>
             <p><a href="https://kungfu.ai/">KUNGFU.AI</a> is a leading-edge AI professional services firm based in Austin, TX. We build robust, scalable state-of-the-art AI solutions and maintain the models in production in our clients' environments. Our key AI/ML capability areas include computer vision, natural language processing, and predictive analytics. As a subcontractor to Uncharted Software under the DARPA D3M program, KUNGFU has developed a robust set of machine learning primitives, with a particular focus on multivariate time series forecasting and remote sensing using multispectral satellite imagery.</p>
@@ -208,7 +208,7 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
         <td>
             <figure>
                 <a href="https://www.jataware.com">
-                    <img class="home-logo" src="images/home/jataware.png" alt="Jataware" />
+                    <img class="home-logo" src="images/home/jataware.png" alt="Jataware Logo" />
                 </a>
             </figure>
             <p><a href="https://www.jataware.com">Jataware</a> is a research and development company focused on software engineering, data science, machine learning and high performance computing. We provide technology consulting services and digital solutions for a wide range of problem sets within government and commercial spaces. As a member of Uncharted's D3M team, Jataware has developed components for: computer vision tasks operating on standard image and multispectral satellite image data; time series, audio and text classification problems; and graph analytics.</p>
@@ -216,7 +216,7 @@ Distil was developed as part of DARPA's <a href="https://datadrivendiscovery.org
         <td>
             <figure>
                 <a href="https://qntfy.com/">
-                    <img class="home-logo" src="images/home/qntfy.png" alt="Qntfy" />
+                    <img class="home-logo" src="images/home/qntfy.png" alt="Qntfy Logo" />
                 </a>
             </figure>
             <p><a href="https://qntfy.com/">Qntfy</a> is a technology solutions provider bridging data science and human behavior. We make complex psychological and behavioral data accessible, scalable and actionable for both individuals and organizations.  Qntfy and Uncharted worked together to build a data-driven platform to automatically find and tune a machine learning pipeline given an end  user’s dataset, supporting tabular, time series and image domains.</p>
